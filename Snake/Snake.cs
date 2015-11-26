@@ -30,7 +30,7 @@ namespace Snake
             pList.Add(head);
 
             tail.Clear();
-            head.Draw();
+            head.Draw(); 
         }
 
         public Point getNextPoint()
